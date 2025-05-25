@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Notes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Gestion des Notes</h1>
+        <nav>
+            <a href="ajouter-note.html" class="btn">➕ Ajouter une note</a>
+        </nav>
+    </header>
+
+    <main>
+        <table id="notes-table">
+            <thead>
+                <tr>
+                    <th>Étudiant</th>
+                    <th>Matière</th>
+                    <th>Note</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="notes-list">
+                <!-- Les notes seront chargées ici via JS -->
+            </tbody>
+        </table>
+    </main>
+
+    <script src="js/storage.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
